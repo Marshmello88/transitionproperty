@@ -1,0 +1,13 @@
+.box {
+    width: 100px;
+    height: 100px;
+    opacity: 0.5;
+    background-color: #bada55;
+    transition-property: opacity, background-color;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+
+.box:hover {
+        opacity: 1;
+}
